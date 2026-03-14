@@ -247,10 +247,19 @@ for generate in range(100):
 first_names = [
     "Amsita", "Anjuli", "Samir", "Rohan", "Hari", " Sandesh", " Subas", " Rahul", "Dipak", "Ronak",
     "Sujan", "Arjun", "Karan", "Pratik", "Maya", "Prakriti", "Aarati", "Khushi", "Samriti", "Smriti", "Kanxi",
-    "Sanu", "Janak", "Arun"
+    "Sanu", "Janak", "Arun", "susmita", "Ranju", "Tilak", "Balen", "Rabhi", "Nepali", "Samikshya", "Aashis", "Aryan", "Nitu",
+    "Indu", "Sagar", "Samarpan", "Saroj", "Jay", "Ridam", "Samir", "Rakhi", "Anu", "Shima", "Garima", "Kopila", "Basanti",
+    "Bindira", "Sanu", "Manika", "Ambrika", "Amrita", "Anshu", "Prinkya", "Katrina", "Karun", "Sarita", "Fulkumarii", "Sonu", "Susma",
+    "Aayush", "Bibek", "Bishal", "Chandan", "Devendra", "Gaurav", "Hemant", "Ishwor", "Jitendra", "Keshav",
+    "Lokesh", "Mahendra", "Nabin", "Omkar", "Prabin", "Rakesh", "Sanjay", "Sunil", "Tejendra", "Yogesh"
 ]
-surnames = ["Thapa", "Lama", "Tamang", "Magar", "Xettri", "Karki","Chowdhury", "Shrestha", "Rayamajhi", "Thakur", "Bhandari", "Kumar", "Rai", "Adhakari", "Gautam"]
-
+surnames = ["Bahun", "Chhetri", "Thakuri", "Newar", "Magar", "Gurung", "Tamang", "Rai", "Limbu", "Sherpa", "Tharu", "Yadav", "Dalit", "Kami", 
+"Damai", "Sarki", "Sunar", "Badi", "Muslim", "Madhesi", "Rajbanshi", "Dhimal", "Chepang", "Danuwar", "Majhi", "Thami", "Jirel", "Hyolmo", "Walung", "Bhote", 
+"Thapa", "Karki", "Basnet", "Bhandari", "Adhikari", "Acharya", "Aryal", "Bhattarai", "Dahal", "Gautam", "Kafle", "Koirala", "Mainali", "Neupane", "Poudel", "Regmi", "Sharma", 
+"Sigdel", "Subedi", "Tiwari", "Upadhyaya", "Wagle", "Pandey", "Gyawali", "Parajuli", "Khatiwada", "Baral", "Timilsina", "Rimal", "Lamsal", "Chapagain", "Khanal", "Bista", "Budhathoki", 
+"Chand", "Kunwar", "Rawat", "Rana", "Raut", "Ale", "Gharti", "Pun", "Roka", "Budha", "ThapaMagar", "Ghale", "Lama", "Yonjan", "Moktan", "Dong", "Waiba", "Pakhrin", "Bal", "Shrestha", "Maharjan", "Dangol", "Pradhan", 
+"Joshi", "Tuladhar", "Sthapit", "Manandhar", "Rajbhandari", "Maskey", "Amatya", "Kansakar"
+]
 def get_np_name():
     return random.choice(first_names), random.choice(surnames)
 
